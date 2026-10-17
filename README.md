@@ -360,6 +360,15 @@ Earlier versions shipped 22. In practice:
 The full 22-tool catalogue still lives on the [`v1-full`](https://github.com/prakhar1605/Opencollab-mcp/tree/v1-full) branch if you want it.
 
 ---
+## Contributors
+
+Thanks to everyone who has contributed to OpenCollab MCP!
+
+<a href="https://github.com/prakhar1605/Opencollab-mcp/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=prakhar1605/Opencollab-mcp" alt="Contributors" />
+</a>
+
+New contributors are welcome! Check out our [good first issues](https://github.com/prakhar1605/Opencollab-mcp/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22) to get started.
 
 
 
