@@ -1,20 +1,20 @@
 
-## Summary
+## What changed and why
 
 <!-- Briefly describe what changed and why. -->
 
-## Related Issue
+## Closes
 
 Closes #
 
-## Testing
+## How it was tested
 
-<!-- Describe the tests performed. -->
-
-- [ ] Tests pass
-- [ ] Lint checks pass
+- `pytest`
+- `ruff check src tests`
 
 ## Checklist
 
-- [ ] CHANGELOG updated
-- [ ] README updated if needed
+- [ ] Tests added/updated
+- [ ] CHANGELOG entry added
+- [ ] README updated if a tool's output changed
+
