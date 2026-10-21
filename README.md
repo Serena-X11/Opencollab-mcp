@@ -122,11 +122,13 @@ For an SSE client, use `-e TRANSPORT=sse`; both remote transports bind to
 
 **Using Docker Compose**
 
-Create a `.env` file in the project root with your GitHub token:
+Create a `.env` file from the example:
 
 ```bash
-GITHUB_TOKEN=your_token_here
+cp .env.example .env
 ```
+
+Open the `.env` file and replace the placeholder with your GitHub token. Do not commit your `.env` file.
 
 Start the service:
 
