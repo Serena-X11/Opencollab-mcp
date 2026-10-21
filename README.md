@@ -119,7 +119,33 @@ The container runs as a non-root user with `TRANSPORT=streamable-http` on port 8
 For an SSE client, use `-e TRANSPORT=sse`; both remote transports bind to
 `0.0.0.0` and accept `PORT` (default `8000`).
 `GET /health` returns `ok`; the image's `HEALTHCHECK` probes it on the configured `PORT`.
+**Using Docker Compose**
 
+Create a `.env` file from the example:
+
+```bash
+cp .env.example .env
+```
+
+Open `.env` and replace the placeholder with your GitHub token. Do not commit `.env`.
+
+Start the service:
+
+```bash
+docker compose up --build -d
+```
+
+Check the service health:
+
+```bash
+curl http://localhost:8000/health
+```
+
+To stop the service:
+
+```bash
+docker compose down
+```
 </details>
 
 ### Step 3 — Try it
